@@ -1,6 +1,8 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 from models.UserNameModel import UserName
+
+# from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.cors import CORSMiddleware
 
 # Start API Object
 app = FastAPI()
@@ -18,7 +20,8 @@ from DatabaseFunctions import (
 origins = [
     'http://localhost:3000',
     'https://localhost:3000',
-    'http://127.0.0.1:8000/'
+    'http://127.0.0.1:8000/',
+    'https://seal-app-8qhxt.ondigitalocean.app'
 ]
 
 # Middleware
