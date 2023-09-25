@@ -14,7 +14,7 @@ function View1() {
 
     // Create / Post a User
     const addUserHandler = () => {
-        axios.post('https://plankton-app-w26mn.ondigitalocean.app/user', {
+        axios.post('https://farm-backend-demo-7lzad.ondigitalocean.app/api/user', {
             'id': id,
             'name': name
         })
