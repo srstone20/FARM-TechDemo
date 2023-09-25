@@ -15,7 +15,7 @@ function View2() {
 
     // Reads all users. Sends the GET request to API
     useEffect(() => {
-        axios.get('https://seal-app-8qhxt.ondigitalocean.app/api/user')
+        axios.get('https://plankton-app-w26mn.ondigitalocean.app/user')
         .then(res => {
             setUserList(res.data)
         })
