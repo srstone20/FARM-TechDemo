@@ -28,7 +28,7 @@ origins = [
 # Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins= ["https://seal-app-8qhxt.ondigitalocean.app/", "https://seal-app-8qhxt.ondigitalocean.app/view1", "https://seal-app-8qhxt.ondigitalocean.app/view2"],
+    allow_origins= ["https://farm-frontend-demo-xssnl.ondigitalocean.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
