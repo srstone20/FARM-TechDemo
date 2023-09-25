@@ -14,7 +14,7 @@ function View1() {
 
     // Create / Post a User
     const addUserHandler = () => {
-        axios.post('http://127.0.0.1:8000/api/user/', {
+        axios.post('https://seal-app-8qhxt.ondigitalocean.app/api/user/', {
             'id': id,
             'name': name
         })
